@@ -2,10 +2,9 @@ package rabbitgo
 
 import (
 	"fmt"
+	amqp "github.com/rabbitmq/amqp091-go"
 	"testing"
 	"time"
-
-	"github.com/streadway/amqp"
 )
 
 var rabbit *RabbitPool

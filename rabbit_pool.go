@@ -1,13 +1,12 @@
 package rabbitgo
 
 import (
+	amqp "github.com/rabbitmq/amqp091-go"
 	"log"
 	"math/rand"
 	"os"
 	"sync"
 	"time"
-
-	"github.com/streadway/amqp"
 )
 
 const (
