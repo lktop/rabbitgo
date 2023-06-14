@@ -1,4 +1,4 @@
-module github.com/kirinlabs/rabbitgo
+module github.com/lktop/rabbitgo
 
 go 1.18
 
